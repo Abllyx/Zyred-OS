@@ -5,6 +5,16 @@ bits 64
 
 ;   Starting the long_mode
 start_long_mode:
+    ;mov ax, 0
+    ;mov ss, ax
+    ;mov ds, ax
+    ;mov es, ax
+    ;mov fs, ax
+    ;mov gs, ax
+;
+	;jmp .returned
+;
+	;hlt
     ; call rust main (with multiboot pointer in rdi)
     ;call rust_main
 

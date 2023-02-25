@@ -1,10 +1,10 @@
 [Powershell]
 
    Install Command
- - `docker build buildenv -t Zyre-OS`
+ - `docker build buildenv -t zyred-OS`
 
    Build Command
- - `docker run --rm -it -v "${pwd}:/root/env" Zyre-OS`
+ - `docker run --rm -it -v "${pwd}:/root/env" zyred-OS`
 
       Build and exit Command
     - `make build-x86_64`
@@ -15,4 +15,4 @@
 
 
    Deleat Command
- - `docker rmi Zyre-OS -f`
+ - `docker rmi zyred-OS -f`
