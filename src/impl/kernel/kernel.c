@@ -1,4 +1,5 @@
-void kernel_main(){
+#include "printf.h"
 
+void kernel_main(){
 
 }
